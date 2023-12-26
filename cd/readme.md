@@ -1,3 +1,57 @@
+# Compiler structure
+* The structure of a compiler in compiler design can be divided into several phases, each responsible for a specific task in the process of translating a high-level programming language code into machine code or an intermediate code. The typical structure of a compiler includes the following phases:
+
+Lexical Analysis (Scanner):
+
+Task: Breaks the source code into tokens.
+Component: Lexer/Scanner.
+Output: Stream of tokens.
+* Syntax Analysis (Parser):
+
+Task: Checks the syntax of the code using a formal grammar.
+Component: Parser.
+Output: Abstract Syntax Tree (AST) or some other intermediate representation.
+* Semantic Analysis:
+
+Task: Checks the meaning of the code in terms of the language semantics.
+Components: Semantic Analyzer.
+Output: Symbol Table, Annotated AST.
+* Intermediate Code Generation:
+
+Task: Translates the source code into an intermediate representation.
+Component: Intermediate Code Generator.
+Output: Intermediate Code.
+* Code Optimization:
+
+Task: Improves the intermediate code to make it more efficient.
+Components: Optimizer.
+Output: Optimized Intermediate Code.
+* Code Generation:
+
+Task: Translates the optimized intermediate code into target machine code or an equivalent representation.
+Component: Code Generator.
+Output: Machine Code or Assembly Code.
+* Code Linking and Assembly:
+
+Task: Combines the generated code with libraries and resolves symbolic references.
+Components: Linker, Assembler.
+Output: Executable Code.
+* Error Handling:
+
+Task: Detects and reports errors in the source code.
+Component: Error Handler.
+* Symbol Table Management:
+
+Task: Manages information about symbols (variables, functions, etc.) in the program.
+Component: Symbol Table.
+* Front End:
+
+Components: Lexical Analyzer, Syntax Analyzer, Semantic Analyzer.
+Task: Processes the source code up to the generation of an intermediate representation.
+* Back End:
+
+Components: Intermediate Code Generator, Code Optimizer, Code Generator.
+Task: Processes the intermediate representation to generate target machine code.
 # What is token?
 * What is a token? A lexical token is a sequence of characters that can be treated as a unit in the grammar of the programming languages. Example of tokens:
 
