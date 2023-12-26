@@ -6,3 +6,25 @@
 * Token classification: In this stage, the lexer determines the type of each token. For example, in a programming language, the lexer might classify keywords, identifiers, operators, and punctuation symbols as separate token types.
 * Token validation: In this stage, the lexer checks that each token is valid according to the rules of the programming language. For example, it might check that a variable name is a valid identifier, or that an operator has the correct syntax.
 * Output generation: In this final stage, the lexer generates the output of the lexical analysis process, which is typically a list of tokens. This list of tokens can then be passed to the next stage of compilation or interpretation.
+  # Advantages
+* Efficiency: Lexical analysis improves the efficiency of the parsing process because it breaks down the input into smaller, more manageable chunks. This allows the parser to focus on the structure of the code, rather than the individual characters.
+
+* Flexibility: Lexical analysis allows for the use of keywords and reserved words in programming languages. This makes it easier to create new programming languages and to modify existing ones.
+
+* Error Detection: The lexical analyzer can detect errors such as misspelled words, missing semicolons, and undefined variables. This can save a lot of time in the debugging process.
+
+* Code Optimization: Lexical analysis can help optimize code by identifying common patterns and replacing them with more efficient code. This can improve the performance of the program.
+
+# Disadvantages:
+Complexity: Lexical analysis can be complex and require a lot of computational power. This can make it difficult to implement in some programming languages.
+
+* Limited Error Detection: While lexical analysis can detect certain types of errors, it cannot detect all errors. For example, it may not be able to detect logic errors or type errors.
+
+* Increased Code Size: The addition of keywords and reserved words can increase the size of the code, making it more difficult to read and understand.
+
+* Reduced Flexibility: The use of keywords and reserved words can also reduce the flexibility of a programming language. It may not be possible to use certain words or phrases in a way that is intuitive to the programmer.
+
+* Below is previous year GATE question on Lexical analysis. https://www.geeksforgeeks.org/lexical-analysis-gq/ Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
