@@ -1,4 +1,17 @@
+# What is token?
+* What is a token? A lexical token is a sequence of characters that can be treated as a unit in the grammar of the programming languages. Example of tokens:
 
+*Type token (id, number, real, . . . )
+* Punctuation tokens (IF, void, return, . . . )
+* Alphabetic tokens (keywords)
+* Keywords; Examples-for, while, if etc.
+* Identifier; Examples-Variable name, function name, etc.
+* Operators; Examples '+', '++', '-' etc.
+* Separators; Examples ',' ';' etc
+# Example of Non-Tokens:
+
+Comments, preprocessor directive, macros, blanks, tabs, newline, etc.
+Lexeme: The sequence of characters matched by a pattern to form the corresponding token or a sequence of input characters that comprises a single token is called a lexeme. eg- “float”, “abs_zero_Kelvin”, “=”, “-”, “273”, “;” . 
 #  How Lexical Analyzer works-
 
 * Input preprocessing: This stage involves cleaning up the input text and preparing it for lexical analysis. This may include removing comments, whitespace, and other non-essential characters from the input text.
@@ -24,7 +37,7 @@ Complexity: Lexical analysis can be complex and require a lot of computational p
 
 * Reduced Flexibility: The use of keywords and reserved words can also reduce the flexibility of a programming language. It may not be possible to use certain words or phrases in a way that is intuitive to the programmer.
 
-* Below is previous year GATE question on Lexical analysis. https://www.geeksforgeeks.org/lexical-analysis-gq/ Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
 
 
 
