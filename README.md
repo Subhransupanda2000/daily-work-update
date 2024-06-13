@@ -2,4 +2,5 @@
 * Authentication flow in bookmyshow
 * ArmStrong Number
 * Bookmyshow db design
+* Types of application
   
