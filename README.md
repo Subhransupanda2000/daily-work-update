@@ -8,6 +8,6 @@
 * super key,primary key,candidate key
 * functional dependency
 * 1nf,2nf,3nf
-* bookmyshow db-design
-* javascript ball bat stump project
+* bookmyshow db-design(ongoing)
+* javascript ball bat stump project(ongoing)
 * 20 mins bookstore signup  debugging
