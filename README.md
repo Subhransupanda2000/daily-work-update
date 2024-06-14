@@ -10,3 +10,4 @@
 * 1nf,2nf,3nf
 * bookmyshow db-design
 * javascript ball bat stump project
+* 20 mins bookstore signup  debugging
