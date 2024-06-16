@@ -50,3 +50,6 @@ CREATE TABLE Enrollments (
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
 ```
+# cap theorm
+![Screenshot (886)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/21fd39c4-aa6c-487a-986a-16266fac43d2)
+
