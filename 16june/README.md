@@ -52,4 +52,12 @@ CREATE TABLE Enrollments (
 ```
 # cap theorm
 ![Screenshot (886)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/21fd39c4-aa6c-487a-986a-16266fac43d2)
+# Read through cache
+![Screenshot (887)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/ebf61603-92c2-4aad-855d-638a07200cad)
+![Screenshot (889)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/ac1deb71-51df-40c8-bae1-0dc0d6f68003)
+# Write through cache
+![Screenshot (888)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/2333a951-729f-4e4d-8a5d-356da96f3c5d)
+
+
+
 
