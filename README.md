@@ -11,3 +11,12 @@
 * bookmyshow db-design(ongoing)
 * javascript ball bat stump project(ongoing)
 * 20 mins bookstore signup  debugging
+# 16 june progress
+* one-one entity design
+* one-many entity design
+* many-one entity design
+* many-many entity design
+* redis inmemory cache
+* write through cache
+* read through cache
+* Consistency vs. Availability (CAP Theorem)
