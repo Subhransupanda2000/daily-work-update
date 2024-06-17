@@ -28,3 +28,7 @@
 * Functional Dependency
 * 1NF
 * 2NF
+* iframe tags html
+* text format html
+* inline css
+* jdk,jvm,jre
