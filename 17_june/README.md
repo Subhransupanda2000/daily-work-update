@@ -12,10 +12,8 @@ DROP: Used to delete database objects entirely.
 INSERT: Used to add new rows of data to a table.
 UPDATE: Allows modifying existing data in a table.
 DELETE: Used to remove rows from a table.
-DCL (Data Control Language): DCL commands are used for managing user access and permissions within the database. Some examples include:
 ```
-
-* DQL is the most commonly used category for fetching and manipulating data retrieved from the database. The core function of SQL revolves around the DQL statement
+* DQL is fetching and manipulating data retrieved from the database.
 ```
-SELECT: This is the workhorse for retrieving data from tables. You can specify which columns and rows you want to retrieve, filter data based on conditions, and sort the results.
+SELECT: This is the workhorse for retrieving filter data based on conditions, and sort the results.
 ```
