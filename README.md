@@ -20,3 +20,11 @@
 * write through cache
 * read through cache
 * Consistency vs. Availability (CAP Theorem)
+# 17_june update
+* DDL
+* DML
+* DRL
+* Normalization
+* Functional Dependency
+* 1NF
+* 2NF
