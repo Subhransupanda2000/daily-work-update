@@ -1,4 +1,4 @@
-# DDL
+# DDL DML DRL
 
 * DDL commands deal with defining the structure of database. Here are some common DDL commands:
 ```
