@@ -51,14 +51,27 @@ ALTER TABLE customers RENAME COLUMN name TO customer_name;
 
 * A table named "Orders" with columns "Order ID," "Customer ID," "Product ID," and "Quantity." There's a functional dependency between "Order ID" and ("Customer ID," "Product ID"). This means that knowing the "Order ID" uniquely identifies the combination of "Customer ID" and "Product ID" for that specific order.
 
-* 1NF (First Normal Form):
+# 1NF (First Normal Form):
 The most basic level of database normalization. A table is considered to be in 1NF if it adheres to these rules:
 * Atomic Values: Each cell in the table should contain a single atomic value (indivisible unit of data). This means no repeating groups or lists within a single cell.
 * Unique Identifiers: Each table should have a primary key, which is a column or set of columns that uniquely identifies each row in the table. No duplicate rows are allowed based on the primary key.
-* 2NF (Second Normal Form):
+# 2NF (Second Normal Form):
 * A table is considered to be in 2NF if it meets all the requirements of 1NF and also eliminates a specific type of redundancy:
 
 * No Partial Dependency: There should be no partial dependencies on the candidate key (possible primary keys). This means all non-key attributes (attributes not part of the primary key) must be fully dependent on the entire candidate key, not just a part of it.
 Here's an example of a violation of 2NF:
 
 Imagine a table named "Customers" with columns "Customer ID," "Name," "Email," and "City." There might be a functional dependency between "Customer ID" and "City." This creates a partial dependency because "City" only depends on "Customer ID," not necessarily needing the entire information stored in "Name" and "Email" (which could be another candidate key). To achieve 2NF, you might need to separate "City" into a different table linked to the "Customer ID" through a foreign key relationship.
+# IFRAME & TEXT FORMAT TAGS
+```
+<iframe src="url_of_the_embedded_page" width="width_in_pixels" height="height_in_pixels"></iframe>
+```
+```
+<h1>My Webpage</h1>
+<p>This is some content on my webpage. I can also embed external content using iframes.</p>
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" width="560" height="315"></iframe>
+<p>Here's some more text after the embedded video.</p>
+<b>Note:</b> I replaced "VIDEO_ID" with the actual video ID you want to embed from YouTube.
+
+```
+![Screenshot (895)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/cee7399d-b749-4eeb-aa09-b1810172d441)
