@@ -15,3 +15,8 @@ The word consistency means that the value should remain preserved always. In DBM
 
 ![Screenshot (902)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/65b5cd7f-1425-45e2-92a2-551811daf75b)
 
+# ISOLATION:
+* The term 'isolation' means separation. In DBMS, Isolation is the property of a database where no data should affect the other one and may occur concurrently. In short, the operation on one database should begin when the operation on the first database gets complete. It means if two operations are being performed on two different databases, they may not affect the value of one another. In the case of transactions, when two or more transactions occur simultaneously, the consistency should remain maintained. Any changes that occur in any particular transaction will not be seen by other transactions until the change is not committed in the memory.
+
+  ![Screenshot (904)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/0506e588-89ba-4dc6-a497-b465553965b6)
+
