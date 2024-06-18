@@ -24,5 +24,16 @@ The word consistency means that the value should remain preserved always. In DBM
 * Durability ensures the permanency of something. In DBMS, the term durability ensures that the data after the successful execution of the operation becomes permanent in the database. The durability of the data should be so perfect that even if the system fails or leads to a crash, the database still survives. However, if gets lost, it becomes the responsibility of the recovery manager for ensuring the durability of the database. For committing the values, the COMMIT command must be used every time we make changes.
 
 Therefore, the ACID property of DBMS plays a vital role in maintaining the consistency and availability of data in the database.
-
-Thus, it was a precise introduction of ACID properties in DBMS. We have discussed these properties in the transaction section also.
+# Transaction management (BEGIN, COMMIT, ROLLBACK, SAVEPOINT)
+# 1. BEGIN
+* The BEGIN statement (or START TRANSACTION in some systems) is used to start a new transaction. Once a transaction has started, the subsequent SQL statements are executed as part of that transaction.
+* START TRANSACTION;
+# 2. COMMIT
+* The COMMIT statement is used to end the current transaction and make all changes made during the transaction permanent. Once a transaction is committed, the changes are visible to other transactions.
+* COMMIT;
+# 3. ROLLBACK
+* The ROLLBACK statement is used to undo all changes made during the current transaction. This reverts the database to the state it was in before the transaction began.
+* ROLLBACK;
+# 4. SAVEPOINT
+* The SAVEPOINT statement is used to set a point within a transaction to which you can later roll back. This allows for partial rollbacks within a transaction.
+* SAVEPOINT savepoint_name;
