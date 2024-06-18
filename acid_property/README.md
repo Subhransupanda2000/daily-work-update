@@ -43,7 +43,7 @@ Therefore, the ACID property of DBMS plays a vital role in maintaining the consi
 
 * The SQL standard defines four isolation levels, each providing a different level of protection against the phenomena of dirty reads, non-repeatable reads, and phantom reads:
 
-Read Uncommitted
-Read Committed
-Repeatable Read
-Serializable
+* Read Uncommitted,
+Read Committed,
+Repeatable Read,
+Serializable.
