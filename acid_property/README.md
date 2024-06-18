@@ -37,3 +37,13 @@ Therefore, the ACID property of DBMS plays a vital role in maintaining the consi
 # 4. SAVEPOINT
 * The SAVEPOINT statement is used to set a point within a transaction to which you can later roll back. This allows for partial rollbacks within a transaction.
 * SAVEPOINT savepoint_name;
+# ISOLATION LVELS:
+* Transaction isolation levels define the degree to which the operations in one transaction are isolated from those in other concurrent transactions. The isolation level affects how and when the changes made by 
+* one operation become visible to other concurrent operations. Different isolation levels balance between performance and the strictness of data consistency guarantees.
+
+* The SQL standard defines four isolation levels, each providing a different level of protection against the phenomena of dirty reads, non-repeatable reads, and phantom reads:
+
+Read Uncommitted
+Read Committed
+Repeatable Read
+Serializable
