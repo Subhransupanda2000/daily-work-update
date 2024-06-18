@@ -20,3 +20,9 @@ The word consistency means that the value should remain preserved always. In DBM
 
   ![Screenshot (904)](https://github.com/Subhransupanda2000/daily-work-update/assets/123824203/0506e588-89ba-4dc6-a497-b465553965b6)
 
+# Durability
+* Durability ensures the permanency of something. In DBMS, the term durability ensures that the data after the successful execution of the operation becomes permanent in the database. The durability of the data should be so perfect that even if the system fails or leads to a crash, the database still survives. However, if gets lost, it becomes the responsibility of the recovery manager for ensuring the durability of the database. For committing the values, the COMMIT command must be used every time we make changes.
+
+Therefore, the ACID property of DBMS plays a vital role in maintaining the consistency and availability of data in the database.
+
+Thus, it was a precise introduction of ACID properties in DBMS. We have discussed these properties in the transaction section also.
