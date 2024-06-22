@@ -78,5 +78,7 @@ automatically.
 are called anonymous arrays.
 * The main objective of anonymous arrays is "just for instant use".
 * We can create anonymous array as follows.
-* new int[]{10,20,30,40};(valid)
-* new int[][]{{10,20},{30,40}};(valid)
+* new int[]{10,20,30,40};
+* new int[][]{{10,20},{30,40}};
+# Array declaration, construction, initialization in a single line.
+* char[] ch={'a','e','i','o','u'};
