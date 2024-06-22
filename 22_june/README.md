@@ -18,13 +18,16 @@ we should know the size in advance which may not possible always.
 We can resolve this problem by using collections.
 # Array declarations:
 # Single dimensional array declaration: 
+```
 * int[] a;
 int []a;
 int a[];
+```
 At the time of declaration we can't specify the size otherwise we will get compile time
 error.
 # Two dimenssional arrays
 # Two dimensional array declaration:
+```
 Example:
 int[][] a;
 int [][]a;
@@ -32,7 +35,9 @@ int a[][];
 int[] []a;
 int[] a[];
 # Three dimensional array declaration:
+```
 Example:
+```
 int[][][] a;
 int [][][]a;
 int a[][][];
@@ -43,4 +48,5 @@ int[][] []a;
 int[][] a[];
 int []a[][];
 int [][]a[];
+```
 
