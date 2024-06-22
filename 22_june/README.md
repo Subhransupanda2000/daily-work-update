@@ -5,8 +5,6 @@
 5) Array declaration, construction, initialization in a single line.
 6) length Vs length() method
 7) Anonymous arrays
-8) Array element assignments
-9) Array variable assignments.
 # Ans:
 * 1)An array is an indexed collection of fixed number of homogeneous data elements.
 * The main advantage of arrays is we can represent multiple values with the same name
