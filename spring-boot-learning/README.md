@@ -6,7 +6,7 @@
   <dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
-		</dependency>
+  </dependency>
   ```
 # Server Registry
 * A service registry is a key component in a microservice architecture that helps manage and keep track of all the microservices available in a distributed system. It serves as a central directory where microservices register themselves and from which other microservices can discover and locate them. This dynamic discovery mechanism is essential for maintaining flexibility and scalability in a microservice environment.
@@ -16,15 +16,20 @@
   <dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
+  </dependency>
   		<spring-cloud.version>2023.0.2</spring-cloud.version>
     <dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
+    </dependency>
   ```
 *  ii add below line in applicatin.properties file
 *  ```
    eureka.instance.client.serverUrl.defaultZone=http://localhost:8761/eureka/
-
    ```
+   Load balancing:
+* what if our one object question get down ,when we will send request from quiz then we cant get list of question in this case we can create a instance of question 
+  (mvn-package-copy jarfile run it) . now change the port number of original question instance. and run it. now we can see our two question object is running with 
+  two different port.
+* Now we have to add load balancing dependency ,step:2 @FeingClient(name="QUESTION-SERVICE") RUN it.we can check our eureka server .it will show 2 instances of
+  question is running. whenever one instance will go down automatically load balance will manage it from other instance.
