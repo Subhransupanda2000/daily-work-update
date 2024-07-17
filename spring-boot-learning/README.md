@@ -18,9 +18,9 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
   </dependency>
   		<spring-cloud.version>2023.0.2</spring-cloud.version>
-    <dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+   <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter</artifactId>
     </dependency>
   ```
 *  ii add below line in applicatin.properties file
