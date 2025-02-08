@@ -135,3 +135,66 @@ Deployment: AWS EC2 + Kubernetes.
 ✅ Implement Kafka-based communication between services.
 ✅ Deploy final project on AWS using Docker & Kubernetes.
 ```
+```
+1. Core Spring Boot Concepts
+Spring Boot architecture and advantages
+Spring Boot Starter dependencies
+Auto-configuration and how it works
+Application properties (application.properties vs application.yml)
+Embedded servers (Tomcat, Jetty, Undertow)
+2. Spring Core & Dependency Injection
+Spring IOC (Inversion of Control) and DI (Dependency Injection)
+@Component, @Service, @Repository, @Controller annotations
+Bean scopes (singleton, prototype)
+@Autowired, @Qualifier, @Primary, and @Bean
+3. Spring Boot REST API Development
+Creating RESTful APIs using @RestController
+HTTP methods (GET, POST, PUT, DELETE)
+@RequestBody, @PathVariable, @RequestParam
+Response handling (ResponseEntity)
+Exception handling (@ControllerAdvice, @ExceptionHandler)
+4. Spring Boot with Database (JPA & Hibernate)
+Spring Data JPA overview
+Defining entities (@Entity, @Table, @Id, @GeneratedValue)
+Repository layer (JpaRepository, CrudRepository)
+JPQL and Native Queries
+Transaction management (@Transactional)
+Lazy vs Eager loading
+Paging and Sorting (Pageable)
+5. Spring Boot Security & Authentication
+Spring Security basics
+Authentication vs Authorization
+Role-based access control (@PreAuthorize, @Secured)
+JWT Authentication (implementing UsernamePasswordAuthenticationFilter)
+OAuth2 & OpenID Connect basics
+6. Spring Boot Microservices Architecture
+Introduction to microservices
+Service discovery using Eureka
+API Gateway (Spring Cloud Gateway)
+Inter-service communication (RestTemplate, WebClient, FeignClient)
+Circuit Breaker (Resilience4j)
+Centralized configuration (Spring Cloud Config)
+Distributed tracing with Zipkin
+7. Spring Boot Messaging
+Event-driven architecture overview
+RabbitMQ / Kafka integration
+@KafkaListener and @RabbitListener
+Synchronous vs Asynchronous messaging
+8. Spring Boot Testing
+JUnit 5 and Mockito
+Unit testing service layers
+Mocking repositories and external APIs (@MockBean, @WebMvcTest)
+Integration testing (TestRestTemplate)
+TestContainers for database testing
+9. Performance Optimization & Best Practices
+Caching with Redis / Ehcache
+Connection pooling (HikariCP)
+Optimizing Hibernate queries
+Profiling with Actuator & Micrometer
+10. Deployment & DevOps (Relevant for Full-Stack Devs)
+Containerizing Spring Boot apps with Docker
+Creating and managing Spring Boot WAR files
+Deploying Spring Boot apps on AWS / Azure / GCP
+CI/CD Pipelines using GitHub Actions, Jenkins
+
+```
