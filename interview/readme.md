@@ -10,3 +10,10 @@
 * What is usememo and useCallback
 * What is event loop
 * If we will dcler a variable and funct with same name what will be the output
+* What is virtual dom
+* what is microservices
+* difference between comparator and comparable
+* what is thread safe
+* difference between concurrent hashmap and hashmap
+* what is jsx
+* 
