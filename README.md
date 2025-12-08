@@ -15,6 +15,7 @@ public class Cat {
         this.name = name;
         this.age = age;
     }
+    
     public void meow(){
         System.out.println("meow");
     }
