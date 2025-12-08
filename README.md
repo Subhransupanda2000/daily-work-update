@@ -54,3 +54,6 @@ class myclass{
 * If we are not writing any constructer then default constructer will take super method in firstline.
 * First line must be super or this else constructer will take super
 * We can not write super in second line.
+* We can not use super and this simultanesly. [call to super must be first line]
+* Super method and this method we can use only in constructer not in method  [call to super must be first line]
+* We can call constructer from a constructer but not from a method
