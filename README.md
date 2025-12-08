@@ -44,4 +44,13 @@ class myclass{
 }
 
 ```
-
+# Constructer rule
+* Class name and constructer name must be same.
+* If we will add return type in constructer then it will treat as method
+* public default protected private these modifiers are allowed. or else we will get ce. like static sychronized final etc not allowed
+# Default constructer
+* This is always no arg constructer
+* Modifie will be same as class modifier . Default constructer has only one line that is super . 
+* If we are not writing any constructer then default constructer will take super method in firstline.
+* First line must be super or this else constructer will take super
+* We can not write super in second line.
