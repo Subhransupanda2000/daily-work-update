@@ -1,34 +1,44 @@
-# 13 june 2024
-* Authentication flow in bookmyshow
-* ArmStrong Number
-* Bookmyshow db design
-* Types of application
-# 14 june task
-* 6 pattern programming
-* super key,primary key,candidate key
-* functional dependency
-* 1nf,2nf,3nf
-* bookmyshow db-design(ongoing)
-* javascript ball bat stump project(ongoing)
-* 20 mins bookstore signup  debugging
-# 16 june progress
-* one-one entity design
-* one-many entity design
-* many-one entity design
-* many-many entity design
-* redis inmemory cache
-* write through cache
-* read through cache
-* Consistency vs. Availability (CAP Theorem)
-# 17_june update
-* DDL
-* DML
-* DRL
-* Normalization
-* Functional Dependency
-* 1NF
-* 2NF
-* iframe tags html
-* text format html
-* inline css
-* jdk,jvm,jre
+# Interview Questions:
+* Java Reflection
+
+`package org.example.array;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class Cat {
+    private final String name;
+    private final int age;
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    public void meow(){
+        System.out.println("meow");
+    }
+    public static void privatestatic(){
+        System.out.println("meow private static");
+    }
+}
+class myclass{
+    public static void main(String[] args) throws IllegalAccessException, InvocationTargetException {
+        Cat mycat=new Cat("jimmy",34);
+        Field[]fields=mycat.getClass().getFields();
+        for (Field field:fields){
+            field.setAccessible(true);
+            if(field.getName().equals("name")){
+              field.set(mycat,"jiju");
+            }
+        }
+        Method []methods=mycat.getClass().getDeclaredMethods();
+        for (Method meth:methods){
+            if (meth.getName().equals("privatestatic")){
+                meth.setAccessible(true);
+                meth.invoke(null);
+            }
+        }
+    }
+}
+`
