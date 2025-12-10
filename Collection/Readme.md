@@ -6,11 +6,15 @@ Array has few issues thats why collection got introduced
 3. There is no standard data structre.so that there is no redymed method available. We need to write explicitly
 To overcome above problems we should go for collection concept
 ```
-# Collection
+# Collection:(Interface)
 ```
+If You want to represent group of individual object as single entity then we should go for collection.
 1. Collection are growable in nature. There is no fixed size.
 2.Collection is also Heterogenous different type of data we can store
 3. Readymed method support is avaliable.
+Methods :add(Object),addAll(Collection)
+remove(Object)
+removeAll(Colection c), clear(),retainAll(),contain(obj),containAll(obj),isEmplty(),size(),iterator(),toArray()
 ```
 # Difference between Arrays and collections
 ```
