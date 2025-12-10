@@ -45,3 +45,25 @@ Single Entity.
 Methods for Collection Objects.
 Note: There is No Concrete Class which implements Collection Interface Directly.
 ```
+```
+2) List:
+It is the Child Interface of Collection.
+If we want to Represent a Group of Individual Objects where Duplicates are allowed
+and Insertion Order Preserved. Then we should go for List.
+
+
+
+We can Preserve Insertion Order and we can Differentiate Duplicate Object by using
+Index. Hence Index will Play Very Important Role in List.
+Methods:List Interface Defines the following Specific Methods.
+1) void add(int index, Object o)
+2) booleanaddAll(int index, Collection c)
+3) Object get(int index)
+4) Object remove(int index)
+5) Object set(int index, Object new):To Replace the Element Present at specified Index
+with provided Object and Returns Old Object.
+6) intindexOf(Object o):Returns Index of 1
+st Occurrence of 'o'
+7) intlastIndexOf(Object o)
+8) ListIteratorlistIterator();
+```
