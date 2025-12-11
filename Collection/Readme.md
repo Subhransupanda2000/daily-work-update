@@ -37,21 +37,19 @@ Collections:
 6. Collections can hold  only  object type data
 
 ```
+# Difference Between Collection (I) and Collections (C):
 ```
-Difference Between Collection (I) and Collections (C):
  Collection is an Interface which can be used to Represent a Group of Individual Objects as a
 Single Entity.
  Whereas Collections is an Utility Class Present in java.util Package to Define Several Utility
 Methods for Collection Objects.
 Note: There is No Concrete Class which implements Collection Interface Directly.
 ```
+# List:
 ```
-2) List:
 It is the Child Interface of Collection.
 If we want to Represent a Group of Individual Objects where Duplicates are allowed
 and Insertion Order Preserved. Then we should go for List.
-
-
 
 We can Preserve Insertion Order and we can Differentiate Duplicate Object by using
 Index. Hence Index will Play Very Important Role in List.
