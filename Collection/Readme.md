@@ -97,3 +97,18 @@ any Random Element with the Same Speed.
 Hence it is a Marker Interface. 
  Hence ArrayList is Best Suitable if Our Frequent Operation is Retrieval Operation.
 ```
+# Difference between Arraylist and vector
+```
+ArrayList 
+Every Method Present Inside ArrayListis Non – Synchronized. 
+At a Time Multiple Threads are allow to Operate on ArrayList Simultaneously 
+and Hence ArrayList Object is Not Thread Safe. 
+Relatively Performance is High because Threads are Not required to Wait. 
+Introduced in 1.2 Version and it is   Non –Legacy.
+Vector 
+Every Method Present in Vector is Synchronized.  
+At a Time Only One Thread is allow to Operate on Vector Object and Hence 
+Vector Object is Always Thread Safe. 
+Relatively Performance is Low because Threads are required to Wait. 
+It is legcy class
+```
