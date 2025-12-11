@@ -67,3 +67,33 @@ st Occurrence of 'o'
 7) intlastIndexOf(Object o)
 8) ListIteratorlistIterator();
 ```
+# ArrayList
+```
+ArrayList: 
+ 
+ The Underlying Data Structure for ArrayList is Resizable Array ORGrowable Array. 
+ Duplicate Objects are allowed. 
+ Insertion Order is Preserved. 
+ Heterogeneous Objects are allowed (Except TreeSet and TreeMap Everywhere 
+Heterogeneous Objects are allowed). 
+ null Insertion is Possible. 
+1) ArrayList l = new ArrayList();
+ Creates an Empty ArrayList Object with Default Initial Capacity 10. 
+ If ArrayList Reaches its Max Capacity then a New ArrayList Object will be Created 
+with  
+New Capacity = (Current Capacity * 3/2)+1 
+2) ArrayList l = new ArrayList(intinitialCapacity);
+Creates an Empty ArrayList Object with specified Initial Capacity. 
+3) ArrayList l = new ArrayList(Collection c);
+ Creates an EqualentArrayList Object for the given Collection Object.  
+ This Constructor Meant for Inter Conversion between Collection Objects.
+ Usually we can Use Collections to Hold and Transfer Data (Objects) form One Location to 
+Another Location.  
+ To Provide Support for this Requirement Every Collection Class Implements Serializable 
+and Cloneable Interfaces. 
+ ArrayList and Vector Classes Implements RandomAccess Interface. So that we can Access 
+any Random Element with the Same Speed. 
+ RandomAccess Interface Present in java.utilPackage and it doesn't contain any Methods. 
+Hence it is a Marker Interface. 
+ Hence ArrayList is Best Suitable if Our Frequent Operation is Retrieval Operation.
+```
