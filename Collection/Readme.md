@@ -103,10 +103,87 @@ At a Time Multiple Threads are allow to Operate on ArrayList Simultaneously
 and Hence ArrayList Object is Not Thread Safe. 
 Relatively Performance is High because Threads are Not required to Wait. 
 Introduced in 1.2 Version and it is   Non –Legacy.
+public static List synchronizedList(List l) 
 Vector 
 Every Method Present in Vector is Synchronized.  
 At a Time Only One Thread is allow to Operate on Vector Object and Hence 
 Vector Object is Always Thread Safe. 
 Relatively Performance is Low because Threads are required to Wait. 
 It is legcy class
+```
+# LinkedList
+``` 
+ The Underlying Data Structure is Double LinkedList. 
+ Insertion Order is Preserved.  
+ Duplicate Objects are allowed. 
+ Heterogeneous Objects are allowed. 
+ null Insertion is Possible. 
+ Implements Serializable and Cloneable Interfaces but Not RandomAccessInterface. 
+ Best Choice if Our Frequent Operation is InsertionOR Deletion in the Middle. 
+ Worst Choice if Our Frequent Operation is Retrieval.
+Constructors: 
+1) LinkedList l = new LinkedList(); Creates an Empty LinkedList Object. 
+2) LinkedList l = new LinkedList(Collection c); 
+Creates an Equivalent LinkedList Object for the given Collection. 
+Methods:
+1) void addFirst(Object o) 
+2) void addLast(Object o) 
+3) Object getFirst() 
+4) Object getLast() 
+5) Object removeFirst() 
+6) Object removeLast() 
+```
+# Vector:
+```
+ The Underlying Data Structure is Resizable Array ORGrowable Array. 
+ Insertion Order is Preserved. 
+ Duplicate Objects are allowed. 
+ Heterogeneous Objects are allowed. 
+ null Insertion is Possible. 
+ Implements Serializable, Cloneable and RandomAccess interfaces. 
+ Every Method Present Inside Vector is Synchronized and Hence Vector Object is 
+Thread Safe. 
+ Vector is the Best Choice if Our Frequent Operation is Retrieval. 
+ Worst Choice if Our Frequent Operation is Insertion OR Deletion in the Middle. 
+ Creates an Empty Vector Object with Default Initial Capacity 10. 
+ Once Vector Reaches its Max Capacity then a New Vector Object will be Created with
+New Capacity =  Current Capacity * 2 
+Constructors:
+1) Vector v = new Vector();
+2) Vector v = new Vector(intinitialCapacity); 
+3) Vector v = new Vector(intinitialCapacity, intincrementalCapacity); 
+4) Vector v = new Vector(Collection c); 
+Methods:
+1) To Add Elements:
+ add(Object o)Collection 
+ add(int index, Object o)List 
+ addElement(Object o) Vector 
+2) To Remove Elements:
+ remove(Object o) Collection 
+ removeElement(Object o)Vector 
+ remove(int index) List 
+ removeElementAt(int index)Vector 
+ clear() Collection 
+ removeAllElements()Vector 
+3) To Retrive Elements:
+ Object get(int index)List 
+ Object elementAt(int index)Vector 
+ Object firstElement() Vector 
+ Object lastElement()Vector 
+4) Some Other Methods:
+ int size() 
+ int capacity() 
+ Enumeration element() 
+```
+# Stack: 
+```
+ It is the Child Class of Vector. 
+ It is a Specially Designed Class for Last In First Out (LIFO) Order. 
+Constructor:Stack s = new Stack(); 
+Methods: 
+1) Object push(Object o); To Insert an Object into the Stack. 
+2) Object pop(); To Remove and Return Top of the Stack. 
+3) Object peek(); Ro Return Top of the Stack without Removal. 
+4) boolean empty(); Returns true if Stack is Empty 
+5) int search(Object o);Returns Offset if the Element is Available Otherwise Returns -1. 
 ```
