@@ -1,3 +1,5 @@
+<img width="684" height="566" alt="image" src="https://github.com/user-attachments/assets/d8e1dca1-56ca-41c8-83fe-c7279770380e" />
+
 # Collection framework practice Notes
 ```
 Array has few issues thats why collection got introduced
