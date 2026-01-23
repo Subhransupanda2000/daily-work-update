@@ -15,6 +15,8 @@ Public & private subnet separation
 Enables scalable, secure architectures
 
 Required for production-grade systems
+![Demo GIF](https://cdn.prod.website-files.com/6340354625974824cde2e195/6578d079260c3223351bd0d3_6hBOTP_eTKiei4JgB1Ds52pEMmCFRCXP0n66tEh_gQBDNhQ8jtLcSWPPNxpEC3s6YjhsGqBj5bZ1ooFo07T1d16wGGoByH7C-QogSh1Ca2-aXt3QbXLYn_)
+
 
 🏗 Core VPC Architecture Components
 
