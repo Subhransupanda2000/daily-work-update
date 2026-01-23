@@ -1,3 +1,5 @@
+![App Demo](../AWS.gif)
+
 📘 AWS VPC (Virtual Private Cloud) — Complete Learning README
 
 📌 What is AWS VPC?
@@ -13,8 +15,6 @@ Secure cloud infrastructure
 Public & private subnet separation
 
 Enables scalable, secure architectures
-![App Demo](../AWS.gif)
-
 
 🏗 Core VPC Architecture Components
 
