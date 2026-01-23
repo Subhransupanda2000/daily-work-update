@@ -17,6 +17,7 @@ Enables scalable, secure architectures
 Required for production-grade systems
 
 🏗 Core VPC Architecture Components
+
 1️⃣ CIDR Block (IP Address Range)
 
 Defines the IP address range of the VPC
