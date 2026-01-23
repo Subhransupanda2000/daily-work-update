@@ -13,7 +13,7 @@ Secure cloud infrastructure
 Public & private subnet separation
 
 Enables scalable, secure architectures
-![App Demo](./AWS.gif)
+![App Demo](../AWS.gif)
 
 
 🏗 Core VPC Architecture Components
