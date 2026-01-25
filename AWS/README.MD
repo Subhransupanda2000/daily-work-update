@@ -1,6 +1,6 @@
 ![App Demo](../AWS.gif)
-![App Demo](screenshot-27.jpg)
-![App Demo](screenshot-28.jpg)
+![App Demo](../Screenshot-27.png)
+![App Demo](../Screenshot-28.png)
 
 📘 AWS VPC (Virtual Private Cloud) — Complete Learning README
 
