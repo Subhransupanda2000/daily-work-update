@@ -1,0 +1,72 @@
+``
+If API latency spikes immediately after a deployment, the first goal is to determine whether the deployment caused it or merely coincided with another issue. I'd work through the highest-signal checks first:
+
+Confirm the deployment is the trigger
+Compare latency graphs immediately before and after deployment.
+Check whether all endpoints are affected or only specific ones.
+Verify if error rates and request volume also changed.
+Look at application metrics
+p50, p95, and p99 latency
+Request throughput (RPS)
+Error rates (4xx/5xx)
+CPU, memory, and thread utilization
+Garbage collection pauses (for JVM/.NET applications)
+Compare the new version with the previous one
+Review the deployment diff.
+Check for:
+New database queries
+Additional API calls
+New middleware
+Feature flags that became enabled
+Logging changes (excessive synchronous logging can increase latency)
+Check database performance
+Slow query logs
+Query execution plans
+Lock contention
+Connection pool saturation
+Missing indexes introduced by new queries
+
+Inspect downstream dependencies
+
+External APIs
+Cache (Redis/Memcached)
+Message queues
+Authentication providers
+
+Often the application is waiting on another service rather than spending CPU time itself.
+
+Review infrastructure health
+Pod/container restarts
+CPU throttling
+Memory pressure
+Autoscaling events
+Load balancer health
+Network latency between services
+Check traces (distributed tracing)
+If using tracing (e.g., OpenTelemetry, Jaeger, Zipkin), identify:
+Which span suddenly became slower.
+Whether time is spent in the application, database, or external service.
+Verify configuration changes
+Sometimes the code isn't the problem. Check for:
+Environment variables
+Database connection pool size
+Cache configuration
+Timeouts
+Feature flags
+Resource limits (CPU/memory)
+Look for deployment-specific issues
+Cold caches
+JIT compilation or warm-up
+Missing migrations
+Traffic imbalance across instances
+Canary vs. full rollout behavior
+
+Decide whether to roll back
+If:
+
+latency increased immediately after deployment,
+the increase is significant,
+and the root cause isn't quickly identified,
+
+a rollback is often the fastest way to restore service while investigation continues.
+``
